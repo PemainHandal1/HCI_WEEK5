@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2563eb; /* True vibrant royal blue from original screen */
+    color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container component */
+.main-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Announcement Pill */
+.announcement-component {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.15); /* Sleek translucent banner instead of pink */
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    gap: 6px;
+}  
+
+.announcement-component p {
+    font-weight: 400;
+}
+
+.announcement-component a {
+    text-decoration: underline;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.announcement-component i {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+/* Typography styles */
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    max-width: 700px;
+    line-height: 1.2;
+}
+
+.paragraph-component {
+    max-width: 650px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #e0f2fe; /* Light blue tint for high readability text */
+}
+
+/* Clean CTA button styling */
+.btn-started {
+    background-color: #3b82f6; /* Lighter vivid blue accent button */
+    color: aliceblue;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-started:hover {
+    background-color: #1d4ed8;
+}
